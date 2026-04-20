@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowGuide - Data</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>GlowGuide</h1>
+    <p>Data Visualization</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="charts.html">Data</a>
+      <a href="about.html">About</a>
+      <a href="create.html">Create</a>
+      <a href="read.html">Read</a>
+      <a href="update.html">Update</a>
+      <a href="delete.html">Delete</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Skincare Data Charts</h2>
+
+    <canvas id="barChart"></canvas>
+    <canvas id="pieChart"></canvas>
+    <canvas id="lineChart"></canvas>
+  </main>
+
+  <script>
+    new Chart(document.getElementById('barChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Cleanser', 'Serum', 'Moisturizer', 'Sunscreen'],
+        datasets: [{
+          label: 'Number of Products',
+          data: [2, 2, 2, 1]
+        }]
+      }
+    });
+
+    new Chart(document.getElementById('pieChart'), {
+      type: 'pie',
+      data: {
+        labels: ['Dry', 'Oily', 'All', 'Normal'],
+        datasets: [{
+          data: [2, 2, 3, 1]
+        }]
+      }
+    });
+
+    new Chart(document.getElementById('lineChart'), {
+      type: 'line',
+      data: {
+        labels: ['Cleanser', 'Serum', 'Moisturizer', 'Sunscreen'],
+        datasets: [{
+          label: 'Average Price',
+          data: [11.99, 17.25, 17.49, 15.50]
+        }]
+      }
+    });
+  </script>
+
+</body>
+</html>
