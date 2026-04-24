@@ -5,8 +5,8 @@ GlowGuide is an AI-powered chatbot web application that provides personalized be
 ## Features
 - AI chatbot powered by Botpress
 - Interactive and real-time user responses
-- Clean and responsive front-end design
-- User-friendly interface
+- Responsive and user-friendly interface
+
 
 ## Technologies Used
 - HTML
@@ -18,4 +18,4 @@ GlowGuide is an AI-powered chatbot web application that provides personalized be
 https://nadabel745.github.io/glowguide/
 
 ## Purpose
-This project was built to demonstrate skills in front-end development, chatbot integration, and creating interactive user experiences.
+This project demonstrates my ability to build interactive web applications, integrate AI tools, and design user-focused solutions. It highlights my skills in front-end development, problem-solving, and creating meaningful user experiences.
