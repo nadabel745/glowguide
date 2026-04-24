@@ -1,6 +1,8 @@
 # GlowGuide AI Chatbot
 
 GlowGuide is an AI-powered chatbot web application that provides personalized beauty recommendations through an interactive user experience. It was built to demonstrate how AI-driven tools can enhance user engagement and simplify decision-making.
+## Preview
+![GlowGuide Screenshot](glowguide.png)
 
 ## Features
 - AI chatbot powered by Botpress
